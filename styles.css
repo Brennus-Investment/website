@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 .main-nav{
-    min-width: 80px;
+    min-width: 16vw;
 }
 .main-nav ul{
     display: flex;
@@ -133,7 +133,7 @@ footer .footer-img{
     }
     .row{
         display: flex;
-        flex-wrap: wrap;
+
     }
     ul{
         list-style: none;
