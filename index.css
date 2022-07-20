@@ -141,8 +141,8 @@ element.style {
 }
 .family2-image{
     float: left;
-    width: 37vw;
-    transform: translate(-2%,-21%);
+    width: 36.4vw;
+    transform: translate(-2%,-20%)
   }
 
 .email{
@@ -189,6 +189,7 @@ ul{
 .footer{
 background-color: rgba(90, 112, 173, 1);
   padding: 70px 0;
+  padding-top: 5%;
 }
 .footer-col{
  width: 25%;
