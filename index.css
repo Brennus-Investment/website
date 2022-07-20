@@ -1,8 +1,6 @@
-.narrow-content {
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+@import url("https://use.typekit.net/gsb8ins.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 #landing-container #text{
     font-weight: 100;
     font-size: 4vw;
@@ -25,6 +23,7 @@
     text-align: center;
     max-width: 50vw;
     transform: translateY(-140%);
+    font-family: playfair-display, serif;
 }
 
 #globe-container{
@@ -44,13 +43,17 @@
     padding-left: 5%;
     padding-right: 5%;
 }
-#family-container #light-img{
-    padding: 25px 5vw;
-    width: 30vw;
+
+element.style {
+}
+#family-container #light-img {
+    transform: translateX(14%);
+    width: 35vw;
     height: auto;
     float: right;
 }
 #family-container #text{
+    font-family: 'Inter', sans-serif;
     padding: 5vw;
     width: 50vw;
 }
@@ -124,24 +127,23 @@
     float: right;
 }
 .family-header{
-    padding-top: 10%;
+    font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: normal;
+
     padding-left: 63%;
 }
 .family2-container{
     transform: translateX(-6%);
 
-    padding-bottom: 10%;
+    padding-bottom: 2%;
     width: 100vw;
-    background-color:  rgba(208, 208, 219, 0.31);
 }
 .family2-image{
     float: left;
-    width: 60vw;
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-left: 10%;
-    padding-bottom: 10%;
-    transform: translateY(-20%);
+    width: 63vw;
+
+    transform: translateY(-9%);
   }
 
 .email{
@@ -162,8 +164,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+	
+    font-weight: 400;
+    font-style: normal;
 }
+
 *{
 	margin:0;
 	padding:0;
@@ -181,7 +186,6 @@ ul{
 	list-style: none;
 }
 .foot{
-  padding-top: 20%;
 }
 .footer{
 background-color: rgba(90, 112, 173, 1);
@@ -254,4 +258,13 @@ background-color: #ffffff;
 .footer-col{
   width: 100%;
 }
+}
+#transaction-text{
+    padding-bottom: 14%;
+    font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.trasaction-text2{
+    padding-right: 1%;
 }

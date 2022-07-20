@@ -122,7 +122,7 @@ footer .footer-img{
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
     body{
         line-height: 1.5;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Inter', sans-serif;
     }
     *{
         margin:0;
@@ -157,7 +157,6 @@ footer .footer-img{
         float: left;
         width: 60vw;
         padding-right: 5%;
-        padding-left: 5%;
       }
       /* The side navigation menu */
 .sidenav {
@@ -225,7 +224,27 @@ footer .footer-img{
     max-width: 1400px;
     font-weight: lighter;
     position: absolute;
-    transform: translateY(-150%);
+    transform: translate(122%,-222%);
 
 
+}
+#landing-container #text2{
+  padding-left: 10%;
+  font-weight: 100;
+  font-size: 4vw;
+  max-width: 1400px;
+  font-weight: lighter;
+  position: absolute;
+  transform: translateY(-150%);
+
+
+}
+.Family-Text{
+    padding-top: 8%;
+    padding-left: 6%;
+    font-family: playfair-display, serif;
+
+    font-weight: 400;
+    
+    font-style: normal;
 }
