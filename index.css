@@ -19,7 +19,7 @@
     justify-content: center;
 }
 #home-text #text2{
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     text-align: center;
     max-width: 50vw;
     transform: translateY(-140%);
@@ -130,20 +130,19 @@ element.style {
     font-family: playfair-display, serif;
     font-weight: 400;
     font-style: normal;
-
+    transform: translateY(62%);
     padding-left: 63%;
 }
 .family2-container{
     transform: translateX(-6%);
 
-    padding-bottom: 2%;
+    padding-bottom: 0.4%;
     width: 100vw;
 }
 .family2-image{
     float: left;
-    width: 63vw;
-
-    transform: translateY(-9%);
+    width: 37vw;
+    transform: translate(-2%,-21%);
   }
 
 .email{
@@ -279,7 +278,7 @@ background-color: #ffffff;
     font-family: playfair-display, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
   }
   .home-text .family-button{
     padding-left: 8vw;
@@ -302,10 +301,16 @@ background-color: #ffffff;
     font-family: playfair-display, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.5vw;
+    font-size: 2.1vw;
 
 }
 
 .home-text{
     padding-bottom: 10%;
+}
+body{
+    font-family: Inter, sans-serif;
+    font-size: 1.1vw;
+    color: rgba(36, 57, 82, 1);
+    padding-bottom: 0%;
 }

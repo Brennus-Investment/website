@@ -52,7 +52,7 @@
     transform: translateY(-10%);
 }
 
-.diversity-container{
+#diversity-container{
   transform: translateX(-7%);
   padding-top: 12%;
   padding-left: 10%;
@@ -65,7 +65,7 @@
 .diversity-image{
   float: left;
   width: 56vw;
-  transform: translate(-15%,-40%);
+  transform: translate(-15%,-37%);
   padding-right: 1%;
     
   }
@@ -189,12 +189,14 @@
         padding-right: 5%;
     }
     #family-container #light-img{
-        padding: 25px 5vw;
+        transform: translateY(-20%);
+        padding: 5%;
         width: 30vw;
         height: auto;
         float: right;
     }
     #family-container #text{
+      text-align: center;
         padding: 5vw;
         width: 50vw;
     }
@@ -214,7 +216,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
 }
 *{
 	margin:0;
